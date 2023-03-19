@@ -30,6 +30,10 @@ p{
     background-image: linear-gradient(cyan, blue,);
     
 }
+.section-border {
+    background-color: bisque;
+    border: 2px solid rgb(14, 201, 77); /**/
+}
 section{
     height: 750px;
 }
@@ -39,7 +43,7 @@ section{
     background-repeat: no-repeat;
     background-color: brown;
     border-color: blue;
-    border: 2px solid rgb(11, 129, 213);
+    /*border: 2px solid rgb(11, 129, 213);*/
     
 }
 .half-width{
@@ -53,13 +57,12 @@ section{
 }
 .second-section{
     background-image: url("image/biography-bg.png");
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 .third-section{
-    /*background-image: url("image/footer-bg.png");*/
+    background-image: url("image\latest-work-bg.png");
     /*background-image: linear-gradient(cyan, blue,);*/
-    background-color: bisque;
-    border: 2px solid rgb(14, 201, 77); /**/
+    
 }
 .midle-head{
     text-align: center;
@@ -67,11 +70,17 @@ section{
 }
 .third-width{
     float: left;
-    width: 32%;
-    padding-left: 15px;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 10px;
     padding-top: 100px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
 }
-.Forth-section{
+.latest-work {
+    border-radius: 20px;
+}
+.footer-section{
     background-image: url("image/footer-bg.png");
 }
 .clint{
